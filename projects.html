@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Start of Head-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>Projects - My Cybersecurity Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+<!--End of Head-->
+
+<body>
+    <!--The skip link lets keyboard users move directly to the main content.-->
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <!--Navbar Start-->
+    <!--script.js replaces these fallback links with the shared nav.html menu.-->
+    <header id="navbar">
+        <nav class="container py-3" aria-label="Main navigation">
+            <a href="index.html">Home</a> |
+            <a href="projects.html">Projects</a> |
+            <a href="about.html">About Me</a>
+        </nav>
+    </header>
+    <!--Navbar End-->
+
+    <!--Start of Main Div/ Projects Section-->
+    <main id="main-content" class="container" tabindex="-1">
+        <section>
+            <h1>My Projects</h1>
+            <p>Here are some projects I’ve worked on while building my technical skills. Each one has helped me practice what I’m learning and figure out how to solve problems along the way.</p>
+            <!--Cards organize each project; col-md-6 gives two columns on larger screens.-->
+            <div class="row g-4">
+                <!--Start of Project 1-->
+                <div class="col-md-6">
+                    <article class="card">
+                        <!--Use a real screenshot and describe what it shows in the alt text.-->
+                        <img src="images/KICKS.png" class="card-img-top" alt="Placeholder for project 1 screenshot"
+                            width="900" height="500">
+                        <div class="card-body">
+                            <h2 class="h4">KICKS</h2>
+                            <p>KICKS is a sneaker website I created using HTML, CSS, and Bootstrap. It includes a home page with an image carousel and an about page. I focused on organizing the pages and creating a consistent style.</p>
+                            <h3 class="h6">Tools Used:</h3>
+                            <p>HTML, CSS, Bootstrap, and Git/GitHub</p>
+                            <h3 class="h6">What I Learned:</h3>
+                            <p>I learned how to connect pages, customize Bootstrap components, and adjust fonts, spacing, and images with CSS. I also practiced using the Git command line to commit and push updates.</p>
+                        </div>
+                    </article>
+                </div>
+                <!--End of Project 1-->
+                <!--Start of Project 2-->
+                <div class="col-md-6">
+                    <article class="card">
+                        <img src="images/project2.svg" class="card-img-top" alt="Placeholder for project 2 screenshot"
+                            width="900" height="500">
+                        <div class="card-body">
+                            <h2 class="h4">[Project 2 Title]</h2>
+                            <p>[]</p>
+                            <h3 class="h6">Tools Used:</h3>
+                            <p>[]</p>
+                            <h3 class="h6">What I Learned:</h3>
+                            <p>[]</p>
+                        </div>
+                    </article>
+                </div>
+                <!--End of Project 2-->
+            </div>
+        </section>
+        <!--End of Projects Section-->
+    </main>
+    <!--End of Main Div-->
+
+    <!--Start of Footer-->
+    <footer>
+        <p class="mb-0">T-Asia Fries | Cybersecurity Portfolio</p>
+    </footer>
+    <!--End of Footer-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <!--Loads the shared navigation-->
+    <script src="script.js"></script>
+</body>
+
+</html>

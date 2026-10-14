@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Start of Head-->
+
+<head>
+    <meta charset="UTF-8">
+    <!--The viewport allows the layout to resize on mobile devices.-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>Home - My Cybersecurity Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+<!--End of Head-->
+
+<body>
+    <!--The skip link lets keyboard users move directly to the main content.-->
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <!--Navbar Start-->
+    <!--script.js replaces these fallback links with the shared nav.html menu.-->
+    <header id="navbar">
+        <nav class="container py-3" aria-label="Main navigation">
+            <a href="index.html">Home</a> |
+            <a href="projects.html">Projects</a> |
+            <a href="about.html">About Me</a>
+        </nav>
+    </header>
+    <!--Navbar End-->
+
+    <!--Start of Main Div/ Home section-->
+    <main id="main-content" class="container" tabindex="-1">
+        <section class="row align-items-center g-4">
+            <div class="col-md-7">
+                <h1>Exploring Cybersecurity</h1>
+                <p>I’m interested in cybersecurity because I want to understand how systems work, where they’re vulnerable, and how to protect them. Here, I share my projects and what I’m learning as I build my skills.</p>
+                <a class="btn btn-dark" href="projects.html">View My Projects</a>
+            </div>
+            <div class="col-md-5">
+                <!--A headshot of me-->
+                <img src="images/homepage.png" class="portfolio-image" alt="Placeholder for my homepage image"
+                    width="900" height="500">
+            </div>
+        </section>
+        <!--End of Home Section-->
+
+        <!--Start of Interests Section-->
+        <!-- <section class="mt-5">
+            <h2>My Interests</h2>
+            <p></p>
+        </section> -->
+        <!--End of Interests Section-->
+
+        <!--Start of Resources Section-->
+        <section class="mt-5">
+            <h2>Cybersecurity Resources</h2>
+            <ul>
+                <li><a href="https://www.cisa.gov/">CISA Cybersecurity Resources</a></li>
+                <li><a href="https://www.nist.gov/cyberframework">NIST Cybersecurity Framework</a></li>
+                <li><a href="https://owasp.org/www-project-top-ten/">OWASP Top 10</a></li>
+                <li><a href="https://www.wireshark.org/docs/">Wireshark Documentation</a></li>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">MDN HTML Documentation</a></li>
+            </ul>
+        </section>
+        <!--End of Resources Section-->
+    </main>
+    <!--End of Main Div-->
+
+    <!--Start of Footer-->
+    <footer>
+        <p class="mb-0">T-Asia Fries | Cybersecurity Portfolio</p>
+    </footer>
+    <!--End of Footer-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <!--Loads the shared navigation-->
+    <script src="script.js"></script>
+</body>
+
+</html>

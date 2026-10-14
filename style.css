@@ -1,0 +1,63 @@
+body {
+    background-color: rgb(243, 241, 241);
+    color: #333;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    margin: 0;
+    line-height: 1.7;
+}
+
+#logo {
+    letter-spacing: 3px;
+}
+
+main {
+    min-height: 75vh;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+h1 {
+    font-weight: 800;
+}
+
+/*Keep images inside their columns on smaller screens.*/
+.portfolio-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.card {
+    height: 100%;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #e1e8e5;
+}
+
+/*The outline makes the selected link or button visible when using a keyboard.*/
+a:focus-visible,
+button:focus-visible {
+    outline: 3px solid #155f46;
+    outline-offset: 4px;
+}
+
+/*Show the skip link when someone reaches it with the Tab key.*/
+.skip-link {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    transform: translateY(-200%);
+    padding: 10px;
+    background-color: white;
+    color: #333;
+    z-index: 2000;
+}
+
+.skip-link:focus {
+    transform: translateY(0);
+}
+
